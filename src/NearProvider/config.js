@@ -1,4 +1,5 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || "demo.testnet";
+const CONTRACT_NAME =
+  process.env.CONTRACT_NAME || "nearwhitelabelstorefront.testnet";
 
 function getConfig(env) {
   switch (env) {
@@ -62,4 +63,3 @@ function getConfig(env) {
 }
 
 module.exports = getConfig;
-
